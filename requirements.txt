@@ -1,0 +1,11 @@
+kafka-python
+transformers
+torch
+pandas
+nltk
+scikit-learn
+dash
+flask
+pyspark
+tweepy
+praw
