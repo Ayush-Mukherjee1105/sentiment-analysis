@@ -1,0 +1,9 @@
+pip install kafka-python
+pip install transformers
+pip install torch
+pip install pandas
+pip install nltk
+pip install scikit-learn
+pip install dash
+pip install flask
+pip install pyspark
