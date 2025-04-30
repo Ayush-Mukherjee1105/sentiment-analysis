@@ -1,25 +1,48 @@
-# Ignore virtual environment
-myenv/
-venv/
-env/
-
-# Ignore Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*.so
 
-# Ignore model weights and tokenizer folders
-models/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
 
-# Ignore data outputs
-outputs/
+# Environment and dependencies
+.env
+.venv/
+env/
+venv/
+myenv/
 
-# Ignore system files
+# PyTorch and model artifacts
+*.pth
+*.pt
+
+# Logs and runtime files
+*.log
+*.pid
+*.bak
+nohup.out
+
+# Kafka or local data outputs
+*.csv
+data/
+logs/
+checkpoints/
+evaluation/results/
+*.db
+
+# OS and IDE files
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
 
-# Ignore Streamlit cache
-.streamlit/
+# Python test cache
+*.pytest_cache/
 
-config/
+# Dash and HTML cache
+__dash_cache__/
+__pycache__/
+
+
+config 
